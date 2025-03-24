@@ -37,6 +37,7 @@ class MyHomePage extends StatelessWidget {
 
     return Scaffold(
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
 // MARK: Text 
           Text('A random idea - we testing hot reload:'),
