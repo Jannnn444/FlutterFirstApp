@@ -43,6 +43,7 @@ class MyHomePage extends StatelessWidget {
         // MARK: Text 
             Text('A random idea - we testing hot reload:'),
             BigCard(pair: pair),
+            SizedBox(height: 10),
         // MARK: Button
             ElevatedButton(
               onPressed: () {
